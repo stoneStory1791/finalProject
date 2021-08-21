@@ -30,6 +30,5 @@ public class FinalProjectTest {
         System.out.println(stack);
         testProj.redo();
         System.out.println(stack);
-
     }
 }
