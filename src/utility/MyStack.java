@@ -26,7 +26,6 @@ public class MyStack<E> {
     public E peek(){
         if(isEmpty())
             throw new NoSuchElementException("Stack is Empty!");
-
         return last.data;
     }
 
